@@ -1,0 +1,429 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+		background-color: #e4d4c9;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+.container {
+	max-width: 1440px;
+	margin: 0 auto;
+  }  
+  .scrollDiv {
+    max-height: 100vh;
+    overflow: auto;
+}
+
+header, main, .relax {
+    padding: 1rem;
+    width: calc(1440px - 2rem);
+    margin: 0 auto;
+}
+header, footer, .relax{
+    text-align: center;
+    background-color: #5d5364;
+    color: #e4d4c9;
+}
+header{
+    height: 150px;
+}
+h1, h2, h3{
+    font-weight: bold;
+}
+h1{
+    font-size: 45px;
+    margin: 0.67em 0;
+}
+nav ul {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    padding: 0;
+    margin: 1em 0;
+    font-size: 20px;
+}
+ol, ul {
+    list-style: none;
+    list-style-type: none;
+  }
+nav a {
+    display: block;
+    padding: 1rem;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #5d5364;
+    color:  #e4d4c9;
+  }
+  nav a:hover{
+    color: #5d5364;
+    background-color:  #e4d4c9;
+}
+.valley{
+    position: relative;
+    max-width: 1440px;
+    right: 16px;
+    height: auto;
+    bottom: 16px;
+}
+
+.relax {
+    background-color: #5d5364;
+    position: relative;
+    max-width: 1440px;
+    right: 16px;
+    height: 150px;
+    bottom: 19px;
+}
+.nestle p{
+    background-color: #5d5364;
+    position: relative;
+    top: -90px;
+    left: 712px;
+    width: 1250px;
+    word-wrap: break-word;
+    transform: translate(-50%, -50%);
+    color: #e4d4c9;
+    font-size: 20px;
+
+}
+main {
+    background-color: #6d788b;
+    grid-template-columns: 1fr 1fr;
+    gap: 0 50px;
+    align-items: center;
+    justify-items: center;
+}
+
+h2{
+    font-size: 35px;
+}
+
+.images img{
+    margin: 50px;
+   }
+.amen {
+    position: relative;
+    top: -30px;
+    font-size: 25px;
+    left: 130px;
+    color: #e4d4c9;
+    font-weight: bold;
+}
+
+.escape{
+    position: relative;
+    top: -55px;
+    font-size: 25px;
+    left: 830px;
+    color: #e4d4c9;
+}
+
+.escapefrom{
+    position: relative;
+    max-width: 605px;
+    top: -40px;
+    left: 50px;
+    font-size: 20px;
+    color: #e4d4c9;
+    font-weight: bold;
+    font-family: 'EB Garamond', serif;
+}
+.whether{
+    position: relative;
+    max-width: 605px;
+    top: -145px;
+    left: 750px;
+    font-size: 20px;
+    color: #e4d4c9;
+    font-weight: bold;
+    font-family: 'EB Garamond', serif;
+}
+
+footer {
+    margin: auto;
+    max-width: 1440px;
+    height: 150px;
+}
+
+.one p{
+    line-height: 3em;
+    font-size: 20px;
+}
+
+.two p{
+    line-height: 3em;
+    font-size: 15px;
+}
+
+.three p{
+    line-height: 3em;
+    font-size: 15px;
+}
+
+#one{
+    font-size: 95px;
+    line-height: 12em;
+}
+
+.nestle1 p{
+    position: relative;
+    top: -90px;
+    left: 840px;
+    width: 1250px;
+    word-wrap: break-word;
+    transform: translate(-50%, -50%);
+    color: #e4d4c9;
+    font-size: 20px;
+}
+.swiss{
+    position: relative;
+    width: 400px;
+    height: 425px;
+    right: -160px;
+    bottom: -150px;
+}
+form {
+    position: relative;
+    display: table;
+    border-spacing: 45px;
+    right: -650px;
+    bottom: 250px;
+  }
+  
+  form>div {
+    position: relative;
+    right: 150px;
+    display: table-row;
+  }
+  
+  label {
+    position: relative;
+    left: 150px;
+    top: -50px;
+    text-indent: -10px;
+    
+  }
+  input {
+    width: 130px;
+    height: 20px;
+    padding: 0;
+    margin:0;
+    vertical-align: bottom;
+    position: relative;
+    top: -1px;
+
+  }
+  
+  input[type=checkbox] {
+    vertical-align: bottom;
+    margin-left:0;
+  }
+  .name{
+    position: relative;
+    font-size: 20px;
+    right: -100px;
+    top: -70px;
+  }
+  .email{
+    position: relative;
+    font-size: 20px;
+    right: -100px;
+    top: -70px;
+  }
+  .phone{
+    position: relative;
+    font-size: 20px;
+    right: -100px;
+    top: -70px;
+  }
+  .method{
+    position: relative;
+    font-size: 20px;
+    right: -10px;
+    top: -70px;
+  }
+  .comment{
+    position: relative;
+    font-size: 20px;
+    right: -100px;
+    top: -70px;
+  }
+  *{
+    margin:0;
+}
+body{
+    background: #e4d4c9;
+    font-size: 15px;
+}
+.container{
+    width: 80%;
+    margin: 50px auto;
+}
+.contact-box{
+    background: #fff ;
+    display: flex;
+}
+.contact-left{
+    flex-basis:  60%;
+    padding: 40px 60px;
+}
+h1{
+    margin-bottom: 10px;
+}
+.container p{
+    margin-bottom:40px;
+}
+.input-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.input-row ,input-group{
+    flex-basis: 45%;
+}
+input{
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding-bottom:5px;
+    right: -150px;
+}
+
+span{
+    position: relative;
+    right: -150px;
+    color: #5d5364;
+    font-weight:bold;
+}
+form{
+    position: relative;
+    top: -225px;
+    right: -875px;
+    background-color: #e4d4c9;
+}
+button{
+    position: relative;
+    right: 0px;
+    top: 30px;
+}
+
+.inputbox p{
+    position: relative;
+    right: -150px;
+    bottom: -110px;
+}
+
+#text{
+    position: relative;
+    right: -150px;
+}
+label {
+    font-size: 18px;
+    vertical-align: middle;
+    text-align: left;
+  }
+  
+  input[type="radio"] {
+    vertical-align: middle;
+  }
+
+  .rButton {
+    width: 63px;
+    height: 52px;
+    vertical-align: middle;
+}
+
+#text{
+    position: relative;
+    bottom: 5000px;
+}
+
+input[type="radio"] {
+    margin-right: 0;
+    gap: 300px;
+  }
+#inputbox p{
+    font-weight: bold;
+}
+.PhoneEmailtext1{
+    position: absolute;
+    left: 50px;
+    bottom: 175px;
+    color: #5d5364;
+    font-size: 25PX;
+    font-weight:bold;
+}
+.PhoneEmailtext2{
+    position: absolute;
+    left: 50px;
+    bottom: 145px;
+    color: #5d5364;
+    font-size: 25PX;
+    font-weight:bold;
+}
+
+.PREFER{
+    color: #5d5364;
+    font-size: 25PX;
+    font-weight:bold;
+}
+textarea {
+    resize : none; 
+    max-width: 370px;
+ }
+ a:hover, a:visited, a:link, a:active{
+    text-decoration: none;
+    color: #e4d4c9;
+ }
